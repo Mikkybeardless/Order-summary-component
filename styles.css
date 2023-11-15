@@ -1,0 +1,98 @@
+/* tag styles */
+body {
+    background-image: url("./images/pattern-background-desktop.svg");
+    font-family: "Red Hat Display";
+    text-align: center;
+}
+h1,h3{
+    color: hsl(223, 47%, 23%);
+}
+
+p{
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+
+h3{
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+/* class styles */
+
+.main{
+    align-items: center;
+    border-radius: 1rem;
+    background-color: #fff;
+    height: 40rem;
+    max-width: 25rem;
+    margin: 70px auto;
+    box-sizing: content-box;
+
+    
+}
+.illus-image{
+    max-width: 25rem;
+    border-radius: 1rem 1rem 0 0;
+}
+.pricing{
+    margin:20px auto;
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    padding: 10px;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    border-radius: 0.5em;
+    box-sizing: border-box;
+
+}
+
+
+.annual-plan{
+    margin-left: 15px;
+    text-align: justify;
+    box-sizing: content-box;
+    
+}
+
+.price{
+    margin: 3px;
+}
+
+.btn{ 
+    border-style: none;
+    border-radius: 0.5rem;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+:hover.btn {
+    background-color: hsl(245, 63%, 66%);
+    cursor: pointer;
+}
+
+.change{
+    margin: auto;
+    float: right;
+    margin-right: 7px;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+.music{
+    margin: auto 7px;
+    
+}
+
+.cancel-order{
+    margin: 25px auto;
+}
+
+
