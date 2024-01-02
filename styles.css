@@ -3,6 +3,7 @@ body {
     background-image: url("./images/pattern-background-desktop.svg");
     font-family: "Red Hat Display";
     text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
 }
 h1,h3{
     color: hsl(223, 47%, 23%);
@@ -20,7 +21,7 @@ h3{
 
 /* class styles */
 
-.main{
+.card{
     align-items: center;
     border-radius: 1rem;
     background-color: #fff;
@@ -60,6 +61,15 @@ h3{
     margin: 3px;
 }
 
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.btn-container>:nth-child(1){
+    align-self: center;
+}
+
 .btn{ 
     border-style: none;
     border-radius: 0.5rem;
@@ -89,10 +99,17 @@ a:hover{
 .music{
     margin: auto 7px;
     
+    
 }
 
 .cancel-order{
     margin: 25px auto;
+    border: none;
+    background-color: #fff;
+}
+
+:hover.cancel-order,:focus.cancel-order{
+  cursor: pointer;
 }
 
 

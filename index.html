@@ -17,12 +17,17 @@
     <!-- page CSS -->
     <link rel="stylesheet" href="styles.css" />
 
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+
     <title>Frontend Mentor | Order summary card</title>
   </head>
   <body>
     <!-- main section -->
     <main>
-      <div class="main">
+      <div class="card">
         <img
           class="illus-image"
           src="./images/illustration-hero.svg"
@@ -46,9 +51,11 @@
           </div>
           <div class="change"><a href="#">Change</a></div>
         </div>
-
+        
+        <div class="btn-container">
         <button class="btn">Proceed to Payment</button>
-        <p class="cancel-order">Cancel Order</p>
+        <button class="cancel-order">Cancel Order</button>
+      </div>
       </div>
     </main>
 
